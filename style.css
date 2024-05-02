@@ -37,7 +37,8 @@ body{
     z-index: 5;
 }
 .logo{
-    font-size: 3rem;
+    margin-top: 20px;
+    font-size: 10rem;
     color: var(--text-color);
     font-weight: 800;
     cursor: pointer;
@@ -50,12 +51,13 @@ body{
     text-shadow: 0 0 25px var(--main-color);
 }
 .navbar a{
-font-size: 1.8rem;
-color: var(--text-color);
-margin-left: 4rem;
-font-weight: 500;
-transition:0.3s ease;
-border-bottom: 3px solid transparent;
+    font-size: 5rem;
+    margin-left: 10rem;
+    color: var(--text-color);
+    
+    font-weight: 500;
+    transition:0.3s ease;
+    border-bottom: 3px solid transparent;
 }
 
 .navbar a:hover,
@@ -283,7 +285,7 @@ btn-group a:nth-child(2):hover{
     width: 5px;
     height: 500px;
     background-color: var(--main-color);
-    left:calc(50% - 1px);
+    left: calc(50% - 1px);
 }
 
 .timeline-item{
@@ -308,7 +310,7 @@ btn-group a:nth-child(2):hover{
    width: 21px; 
    background-color: var(--main-color);
    box-shadow: 0 0 25px var(--main-color);
-               /* 0 0 50px var(--main-color); */
+               0 0 50px var(--main-color);
                position: absolute;
                left:calc(50% - 8px);
                border-radius: 50%;
@@ -522,7 +524,11 @@ grid-template-columns: repeat(1,1fr);
 font-size:2.6rem;
     }
     .home-content h1{
-        font-size: 600px;
+        font-size: 300px;
+        margin: 0 auto;
+    }
+    .home-content p{
+        max-width: 600px;
         margin: 0 auto;
     }
     .home-img img{

@@ -38,7 +38,6 @@ body{
     z-index: 5;
 }
 .logo{
-    margin-top: 20px;
     font-size: 3rem;
     color: var(--text-color);
     font-weight: 800;
@@ -98,7 +97,7 @@ span{
 }
 
 .home-content h3{
-margin-bottom: 7rem;
+margin-bottom: 3rem;
 font-weight: 700;
 margin-top: 1.5rem;
 line-height: 1;
@@ -402,9 +401,11 @@ margin-top:2rem;
     bottom:0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--main-color);
+    background-color:var(--second-bg-color)
 }
 .footer .social a{
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-bottom: 25px;
     color: var(--main-color);
@@ -525,8 +526,8 @@ grid-template-columns: repeat(1,1fr);
 font-size:2.6rem;
     }
     .home-content h1{
-        font-size: 300px;
-        margin: 0 auto;
+        font-size: 50px;
+        /* margin: 0 auto; */
     }
     .home-content p{
         max-width: 600px;
@@ -540,5 +541,8 @@ font-size:2.6rem;
     }
     .servicer-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .social-icons a  {
+        font-size: 20px;
     }
 }

@@ -403,7 +403,11 @@ margin-top:2rem;
     padding: 40px 0;
     background-color:var(--second-bg-color)
 }
-.footer .social a{
+.icons-display{
+    display: flex;
+    justify-content: center;
+}
+.footer .icons-display a{
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -419,7 +423,7 @@ margin-top:2rem;
     margin:  0 10px;
     transition: 0.3s ease-in-out;
 }
-.footer .social a:hover{
+.footer .icons-display a:hover{
     transform: scale(1.2)translateY(-10px);
     /* background-color: var(--main-color);
     color: black; */
@@ -481,6 +485,7 @@ color: white;
     }
     .timeline-dot{
         padding-bottom: 7rem;
+      
     }
     .testimonials .wrapper{
 grid-template-columns: repeat(1,1fr);

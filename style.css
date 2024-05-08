@@ -305,7 +305,37 @@ btn-group a:nth-child(2):hover{
     padding-left: calc(50% + 30px);
 }
 
-.timeline-dot{
+.timeline-dot-one{
+    display: flex;
+    margin-top: 105px;
+   height: 21px;
+   width: 21px; 
+   background-color: var(--main-color);
+   box-shadow: 0 0 25px var(--main-color);
+               0 0 50px var(--main-color);
+               position: absolute;
+               left:calc(50% - 8px);
+               border-radius: 50%;
+               top:10px;
+
+}
+.timeline-dot-two{
+    display: flex;
+    margin-top: 170px;
+   height: 21px;
+   width: 21px; 
+   background-color: var(--main-color);
+   box-shadow: 0 0 25px var(--main-color);
+               0 0 50px var(--main-color);
+               position: absolute;
+               left:calc(50% - 8px);
+               border-radius: 50%;
+               top:10px;
+
+}
+.timeline-dot-three{
+    display: flex;
+    margin-top: 235px;
    height: 21px;
    width: 21px; 
    background-color: var(--main-color);

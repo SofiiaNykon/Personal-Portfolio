@@ -348,7 +348,6 @@ btn-group a:nth-child(2):hover{
 
 }
 .timeline-date-one{
-    margin-top: 50px;
     font-size: 20px;
     font-weight: 800;
     color:white;
@@ -359,14 +358,12 @@ btn-group a:nth-child(2):hover{
     font-size: 20px;
     font-weight: 800;
     color:white;
-    margin: 6px 0 15px;
 }
 .timeline-date-three{
     margin-top: 210px;
     font-size: 20px;
     font-weight: 800;
     color:white;
-    margin: 6px 0 15px;
 }
 
 .timeline-content-one{
@@ -586,7 +583,7 @@ color: white;
     .timeline-item:nth-child(even){
         padding-left: 37px;
     }
-    .timeline-dot{
+    .timeline-dot-one, .timeline-dot-two, .timeline-dot-three{
         left: 0;
         padding-bottom: 7rem;
       
@@ -657,5 +654,8 @@ font-size:2.6rem;
     }
     .social-icons a:hover  {
         font-size: 15px;
+    }
+    .timeline-content-two{
+        margin-left: 0; 
     }
 }

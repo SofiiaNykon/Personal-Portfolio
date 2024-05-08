@@ -387,16 +387,39 @@ margin-top: 110px;
     box-shadow: 0 0 25px var(--main-color);
 }
 .timeline-content-one h3{
+    display: flex;
     font-size: 20px;
     color: white;
     margin: 0 0 15px;
     font-weight: 500;
+    align-items: center;
+    
+}
+.timeline-content-two h3{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin: 0 0 15px;
+    font-weight: 500;
+    align-items: center;
+    
+}
+.timeline-content-three h3{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin: 0 0 15px;
+    font-weight: 500;
+    align-items: center;
     
 }
 
-.timeline-content p{
+.timeline-content-one, .timeline-content-two, .timeline-content-three p{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
 line-height: 22px;
 }

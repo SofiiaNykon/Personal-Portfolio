@@ -228,10 +228,10 @@ btn-group a:nth-child(2):hover{
     80%{
        content: "Student"; 
     }
-    /* 81%,
+    81%,
     100%{
-        content: "Software Tester";
-    } */
+        content: "Azubi";
+    }
 }
 @keyframes typing{
     10%,

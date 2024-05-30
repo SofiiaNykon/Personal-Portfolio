@@ -268,7 +268,7 @@ margin-top: 10rem;
     margin: 5rem 0;
 }
 .education{
-    padding: 0;
+    padding: 10px;
     background-color: var(--second-bg-color);
 }
 .education h2{
@@ -370,10 +370,10 @@ margin-top: 10rem;
 }
 
 .timeline-content-one{
+    margin-left: 2.1em;
     height: 150px;
 display: flex;
 margin-left: -30px;
-width:500px;
 margin-top: 50px;
    background-color: var(--bg-color); 
    border: 3px solid var(--main-color);
@@ -387,7 +387,6 @@ margin-top: 50px;
 display: flex;
 height: 150px;
 margin-left: 600px;
-width:500px;
 margin-top: 110px;
    background-color: var(--bg-color); 
    border: 3px solid var(--main-color);
@@ -435,9 +434,10 @@ line-height: 22px;
 }
 #second{
     max-width: 300rem;
-margin-left: 80rem;
+margin-left: 69rem;
 }
 #third{
+    margin-right: 17em;
     margin-right: 10px;
 }
 ::-webkit-scrollbar{
@@ -588,6 +588,9 @@ grid-template-columns: repeat(1,1fr);
     #menu-icon{
         display: block;
     }
+    #second{
+        margin-left: 0;
+    }  
     .navbar{
        position: absolute; 
        top:100%;

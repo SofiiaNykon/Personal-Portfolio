@@ -72,7 +72,7 @@ border-bottom: 3px solid var(--main-color);
 }
 
 section{
-    min-height: 100vh;
+    min-height: 115vh;
     padding: 10rem 12% 10rem;
 }
 .home{
@@ -623,7 +623,6 @@ font-size:2.6rem;
     }
     .home-content h1{
         font-size: 50px;
-        /* margin: 0 auto; */
     }
     .home-content p{
         max-width: 600px;
